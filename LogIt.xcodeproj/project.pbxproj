@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		34C9D06D2CE7CA82008F6FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C9D0512CE7CA81008F6FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C9D0582CE7CA81008F6FE0;
+			remoteInfo = LogIt;
+		};
+		34C9D0772CE7CA82008F6FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C9D0512CE7CA81008F6FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C9D0582CE7CA81008F6FE0;
+			remoteInfo = LogIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34C9D0592CE7CA81008F6FE0 /* LogIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C9D06C2CE7CA82008F6FE0 /* LogItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C9D0762CE7CA82008F6FE0 /* LogItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		34C9D05B2CE7CA81008F6FE0 /* LogIt */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LogIt;
+			sourceTree = "<group>";
+		};
+		34C9D06F2CE7CA82008F6FE0 /* LogItTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LogItTests;
+			sourceTree = "<group>";
+		};
+		34C9D0792CE7CA82008F6FE0 /* LogItUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LogItUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C9D0562CE7CA81008F6FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C9D0692CE7CA82008F6FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C9D0732CE7CA82008F6FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C9D0502CE7CA81008F6FE0 = {
+			isa = PBXGroup;
+			children = (
+				34C9D05B2CE7CA81008F6FE0 /* LogIt */,
+				34C9D06F2CE7CA82008F6FE0 /* LogItTests */,
+				34C9D0792CE7CA82008F6FE0 /* LogItUITests */,
+				34C9D05A2CE7CA81008F6FE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34C9D05A2CE7CA81008F6FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C9D0592CE7CA81008F6FE0 /* LogIt.app */,
+				34C9D06C2CE7CA82008F6FE0 /* LogItTests.xctest */,
+				34C9D0762CE7CA82008F6FE0 /* LogItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C9D0582CE7CA81008F6FE0 /* LogIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C9D0802CE7CA82008F6FE0 /* Build configuration list for PBXNativeTarget "LogIt" */;
+			buildPhases = (
+				34C9D0552CE7CA81008F6FE0 /* Sources */,
+				34C9D0562CE7CA81008F6FE0 /* Frameworks */,
+				34C9D0572CE7CA81008F6FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				34C9D05B2CE7CA81008F6FE0 /* LogIt */,
+			);
+			name = LogIt;
+			packageProductDependencies = (
+			);
+			productName = LogIt;
+			productReference = 34C9D0592CE7CA81008F6FE0 /* LogIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34C9D06B2CE7CA82008F6FE0 /* LogItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C9D0832CE7CA82008F6FE0 /* Build configuration list for PBXNativeTarget "LogItTests" */;
+			buildPhases = (
+				34C9D0682CE7CA82008F6FE0 /* Sources */,
+				34C9D0692CE7CA82008F6FE0 /* Frameworks */,
+				34C9D06A2CE7CA82008F6FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C9D06E2CE7CA82008F6FE0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34C9D06F2CE7CA82008F6FE0 /* LogItTests */,
+			);
+			name = LogItTests;
+			packageProductDependencies = (
+			);
+			productName = LogItTests;
+			productReference = 34C9D06C2CE7CA82008F6FE0 /* LogItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34C9D0752CE7CA82008F6FE0 /* LogItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C9D0862CE7CA82008F6FE0 /* Build configuration list for PBXNativeTarget "LogItUITests" */;
+			buildPhases = (
+				34C9D0722CE7CA82008F6FE0 /* Sources */,
+				34C9D0732CE7CA82008F6FE0 /* Frameworks */,
+				34C9D0742CE7CA82008F6FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C9D0782CE7CA82008F6FE0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34C9D0792CE7CA82008F6FE0 /* LogItUITests */,
+			);
+			name = LogItUITests;
+			packageProductDependencies = (
+			);
+			productName = LogItUITests;
+			productReference = 34C9D0762CE7CA82008F6FE0 /* LogItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34C9D0512CE7CA81008F6FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					34C9D0582CE7CA81008F6FE0 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					34C9D06B2CE7CA82008F6FE0 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 34C9D0582CE7CA81008F6FE0;
+					};
+					34C9D0752CE7CA82008F6FE0 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 34C9D0582CE7CA81008F6FE0;
+					};
+				};
+			};
+			buildConfigurationList = 34C9D0542CE7CA81008F6FE0 /* Build configuration list for PBXProject "LogIt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34C9D0502CE7CA81008F6FE0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34C9D05A2CE7CA81008F6FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C9D0582CE7CA81008F6FE0 /* LogIt */,
+				34C9D06B2CE7CA82008F6FE0 /* LogItTests */,
+				34C9D0752CE7CA82008F6FE0 /* LogItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C9D0572CE7CA81008F6FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C9D06A2CE7CA82008F6FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C9D0742CE7CA82008F6FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C9D0552CE7CA81008F6FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C9D0682CE7CA82008F6FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C9D0722CE7CA82008F6FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34C9D06E2CE7CA82008F6FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C9D0582CE7CA81008F6FE0 /* LogIt */;
+			targetProxy = 34C9D06D2CE7CA82008F6FE0 /* PBXContainerItemProxy */;
+		};
+		34C9D0782CE7CA82008F6FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C9D0582CE7CA81008F6FE0 /* LogIt */;
+			targetProxy = 34C9D0772CE7CA82008F6FE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34C9D07E2CE7CA82008F6FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34C9D07F2CE7CA82008F6FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		34C9D0812CE7CA82008F6FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LogIt/LogIt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LogIt/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quaerenv.LogIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		34C9D0822CE7CA82008F6FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LogIt/LogIt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LogIt/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quaerenv.LogIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		34C9D0842CE7CA82008F6FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quaerenv.LogItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LogIt";
+			};
+			name = Debug;
+		};
+		34C9D0852CE7CA82008F6FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quaerenv.LogItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LogIt";
+			};
+			name = Release;
+		};
+		34C9D0872CE7CA82008F6FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quaerenv.LogItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LogIt;
+			};
+			name = Debug;
+		};
+		34C9D0882CE7CA82008F6FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quaerenv.LogItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LogIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C9D0542CE7CA81008F6FE0 /* Build configuration list for PBXProject "LogIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C9D07E2CE7CA82008F6FE0 /* Debug */,
+				34C9D07F2CE7CA82008F6FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C9D0802CE7CA82008F6FE0 /* Build configuration list for PBXNativeTarget "LogIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C9D0812CE7CA82008F6FE0 /* Debug */,
+				34C9D0822CE7CA82008F6FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C9D0832CE7CA82008F6FE0 /* Build configuration list for PBXNativeTarget "LogItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C9D0842CE7CA82008F6FE0 /* Debug */,
+				34C9D0852CE7CA82008F6FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C9D0862CE7CA82008F6FE0 /* Build configuration list for PBXNativeTarget "LogItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C9D0872CE7CA82008F6FE0 /* Debug */,
+				34C9D0882CE7CA82008F6FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34C9D0512CE7CA81008F6FE0 /* Project object */;
+}
